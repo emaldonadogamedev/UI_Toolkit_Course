@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/02_VisualTrees/LayoutExample.uss?fileID=7433441132597879392&amp;guid=926d7246e43d37846a87228e7e646404&amp;type=3#LayoutExample" />
+    <ui:VisualElement name="mainContainer" style="flex-grow: 1; opacity: 1;">
+        <ui:VisualElement class="red_square" style="flex-grow: 1;" />
+        <ui:VisualElement name="VisualElement" class="red_square rounded_corners" style="flex-grow: 1; margin-bottom: 10px; border-top-width: 10px; border-right-width: 10px; border-bottom-width: 10px; border-left-width: 10px;">
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+        </ui:VisualElement>
+        <ui:VisualElement class="blue_square"/>
+    </ui:VisualElement>
+</ui:UXML>

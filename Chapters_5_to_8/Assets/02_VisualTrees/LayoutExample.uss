@@ -1,0 +1,26 @@
+.red_square {
+    width: 100px;
+    background-color: rgba(255, 79, 0, 0.76);
+    margin-bottom: 10px;
+}
+
+.rounded_corners {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-color: rgb(83, 255, 0);
+    border-top-width: 11px;
+    border-left-color: rgb(83, 255, 0);
+    border-right-color: rgb(83, 255, 0);
+    border-bottom-color: rgb(83, 255, 0);
+    border-right-width: 11px;
+    border-bottom-width: 11px;
+    border-left-width: 11px;
+}
+
+.blue_square {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0, 152, 252, 0.63);
+}

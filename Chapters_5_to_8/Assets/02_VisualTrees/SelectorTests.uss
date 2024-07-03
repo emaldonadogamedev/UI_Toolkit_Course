@@ -1,0 +1,21 @@
+#Main {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 134px;
+}
+
+.red_square {
+    background-color: rgba(255, 48, 48, 0.64);
+    height: 100px;
+    width: 450px;
+}
+
+VisualElement {
+    margin-top: 50px;
+    width: 900px;
+}
+
+* {
+}
